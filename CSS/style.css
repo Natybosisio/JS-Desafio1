@@ -1,9 +1,47 @@
+body section div img {
+  border: solid 2px #e7eb02;
+  border-radius: 1rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 60%;
+}
+
 nav {
   font-size: 1.5em;
 }
 nav .logo {
   width: 7rem;
   height: 7rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+.container .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 1.5em;
+  text-align: center;
+}
+.container .item button {
+  height: 10%;
+  width: 40%;
+  background-color: #f1c30c;
+  border: 2px solid #dc9c05;
+  margin-bottom: 2rem;
+}
+
+.titulo {
+  background-color: #e7e377;
 }
 
 /*# sourceMappingURL=style.css.map */

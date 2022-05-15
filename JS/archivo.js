@@ -1,3 +1,6 @@
+
+
+
 /*Variables Globales*/
 let dia = "";
 let precio = "1200";
