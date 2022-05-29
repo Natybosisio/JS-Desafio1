@@ -1,6 +1,4 @@
 
-
-
 /*Variables Globales*/
 let dia = "";
 let precio = "1200";
@@ -8,9 +6,10 @@ let hora = "";
 let cantidadDeHoras = "";
 let cantidadReservas = "";
 
-alert("Usted puede reservar para la semana del 14 al 19 de febrero de 2022");
-/*Pondria una opción para que se actualice la fecha semana a semana, y 
-en futuro la idea es que sea con un calendario y hagan click sobre el dia */
+// alert("Usted puede reservar para la semana del 14 al 19 de febrero de 2022");
+// /*Pondria una opción para que se actualice la fecha semana a semana, y 
+// en futuro la idea es que sea con un calendario y hagan click sobre el dia */
+debugger
 
 cantidadReservas = parseInt(prompt("Cuantas reservas desea realizar?"));
 

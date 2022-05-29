@@ -1,17 +1,7 @@
 
 body{
+  margin:0px;
   
-  section div img{
-        border: solid 2px rgb(231, 235, 2);
-        border-radius: 1rem;
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: center;
-        align-items: center;
-        width: 60%;
-        height: 60%;
-       
-     }
 }
 
 nav{    
@@ -22,20 +12,17 @@ nav{
     }
 }
 
+
+//ESTILOS DE SHOP- ACOMODAR
 .container {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  margin: 1rem;
+}
 
   .item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    margin: 1.5em;
-    text-align: center;
+   text-align: center;
+ 
     
     button{
         height: 10%;
@@ -45,9 +32,25 @@ nav{
         margin-bottom: 2rem;
         }
   }
-}
+
  
 .titulo{
   background-color: rgb(231, 227, 119);
+  font-size: 2rem;
+  text-align: center;
 }
 
+//LO PUSE PARA EL INDEX
+img{
+  width: 20rem;
+  height: 20rem;
+  border: solid 2px rgb(231, 235, 2);
+  border-radius: 1rem;
+}
+
+.inicio{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+}

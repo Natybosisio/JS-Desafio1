@@ -1,12 +1,5 @@
-body section div img {
-  border: solid 2px #e7eb02;
-  border-radius: 1rem;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
-  width: 60%;
-  height: 60%;
+body {
+  margin: 0px;
 }
 
 nav {
@@ -19,20 +12,14 @@ nav .logo {
 
 .container {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  margin: 1rem;
 }
-.container .item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 50%;
-  margin: 1.5em;
+
+.item {
   text-align: center;
 }
-.container .item button {
+.item button {
   height: 10%;
   width: 40%;
   background-color: #f1c30c;
@@ -42,6 +29,21 @@ nav .logo {
 
 .titulo {
   background-color: #e7e377;
+  font-size: 2rem;
+  text-align: center;
+}
+
+img {
+  width: 20rem;
+  height: 20rem;
+  border: solid 2px #e7eb02;
+  border-radius: 1rem;
+}
+
+.inicio {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
