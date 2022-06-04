@@ -1,0 +1,22 @@
+@import "../base/lista";
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html {
+    font-size: 15px;
+    scroll-behavior: smooth;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.titulo{
+    background-color: rgb(231, 227, 119);
+    font-size: 2rem;
+    text-align: center;
+  }

@@ -3,7 +3,7 @@
 
 
 let producto = prompt("que producto desea:\n raqueta \n grip")
-let cantidad = ""
+let cantidad 
 let precio1 = parseInt("200")
 let precio2 = parseInt("10000")
 let descuento = parseInt("10%")
@@ -40,7 +40,7 @@ switch (producto) {
         if(confirma == true){
             console.log("Buena elección su total a pagar es", (cantidad*precioDescuentoG) )
         }
-        else(confirma == false)//me sale este mensaje tambien si es verdadero, y no se porque 
+        else(confirma === false)//me sale este mensaje tambien si es verdadero, y no se porque 
         {
           console.log("Usted va a llevar", cantidad, producto, "por un total de", "$", (precio1*cantidad) )    
         }
