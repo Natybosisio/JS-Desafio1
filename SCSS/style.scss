@@ -1,35 +1,43 @@
 
-body{
+#body{
   margin:0px;
-  
+  background-color: rgb(251, 251, 244); 
 }
 
 nav{    
   font-size: 1.5em;
+  background-color: rgb(245, 240, 129);
   .logo{
   width: 7rem;
   height: 7rem;
+  border-radius: 50%;
   }
 }
 
 //LO PUSE PARA EL INDEX
-img{
-  width: 20rem;
-  height: 20rem;
-  border: solid 2px rgb(2, 235, 122);
-  border-radius: 1rem;
-}
+
 
 .inicio{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  
+  img{
+    width: 15rem;
+    height: 15rem;
+    border: solid 2px rgb(209, 198, 6);
+    border-radius: 1rem;
+  }
  
 }
-
-
+.titulo{
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  background-color: rgb(255, 251, 219);
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
 
 //ESTILOS DE SHOP- ACOMODAR
 .container {
@@ -49,10 +57,15 @@ img{
         border: 2px solid rgb(220, 156, 5);
         margin-bottom: 2rem;
         }
+        img{
+          width: 15rem;
+          height: 15rem;
+          border: solid 2px rgb(209, 198, 6);
+          border-radius: 1rem;
+        }
   }
 
 /*Estilo del footer*/
-
 .footer-conteiner {
   @media screen and (max-width: 480px) {
       display: flex;
@@ -62,7 +75,7 @@ img{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  background-color: rgb(235, 210, 18);
+  background-color: rgb(231, 231, 165);
   width: 100%;
   height: auto;
   margin-top: 2rem;
@@ -72,13 +85,16 @@ img{
           margin-left: auto;
           width: 100%;
       }
-      color: nth($color, 3);
+      color: rgb(242, 235, 97);
       font-size: 1rem;
       width: 100%;
 
-      p,
       a {
+        flex: auto;
+        justify-content: center;
           text-align: center;
+          font-size: 2rem;
+          color: black;
       }
   }
 
@@ -88,7 +104,13 @@ img{
   justify-content: center;
   color: rgb(216, 153, 16);
   font-size: 0.5em;
+   .img{
+     width: 0.2rem;
+height: 0.2rem;
+
+   }
   }
 
  
 }
+

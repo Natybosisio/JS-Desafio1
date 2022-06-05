@@ -1,13 +1,38 @@
-body {
+#body {
   margin: 0px;
+  background-color: #fbfbf4;
 }
 
 nav {
   font-size: 1.5em;
+  background-color: #f5f081;
 }
 nav .logo {
   width: 7rem;
   height: 7rem;
+  border-radius: 50%;
+}
+
+.inicio {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.inicio img {
+  width: 15rem;
+  height: 15rem;
+  border: solid 2px #d1c606;
+  border-radius: 1rem;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  background-color: #fffbdb;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .container {
@@ -26,24 +51,58 @@ nav .logo {
   border: 2px solid #dc9c05;
   margin-bottom: 2rem;
 }
-
-.titulo {
-  background-color: #e7e377;
-  font-size: 2rem;
-  text-align: center;
-}
-
-img {
-  width: 20rem;
-  height: 20rem;
-  border: solid 2px #e7eb02;
+.item img {
+  width: 15rem;
+  height: 15rem;
+  border: solid 2px #d1c606;
   border-radius: 1rem;
 }
 
-.inicio {
+/*Estilo del footer*/
+.footer-conteiner {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  background-color: #e7e7a5;
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+}
+@media screen and (max-width: 480px) {
+  .footer-conteiner {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+}
+.footer-conteiner .footer-pagos {
+  color: #f2eb61;
+  font-size: 1rem;
+  width: 100%;
+}
+@media screen and (max-width: 480px) {
+  .footer-conteiner .footer-pagos {
+    margin-left: auto;
+    width: 100%;
+  }
+}
+.footer-conteiner .footer-pagos a {
+  flex: auto;
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+}
+.footer-conteiner .footer-redes {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  color: #d89910;
+  font-size: 0.5em;
+}
+.footer-conteiner .footer-redes .img {
+  width: 0.2rem;
+  height: 0.2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
