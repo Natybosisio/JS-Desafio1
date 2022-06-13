@@ -37,5 +37,11 @@ function agregarReservasOcupadas() {
 }
 agregarReservasOcupadas()
 
+function eliminarUltima(){
+    reservas.pop()
+    console.log(reservas)
+}
+eliminarUltima()
+
 
 const semana = ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado"]
